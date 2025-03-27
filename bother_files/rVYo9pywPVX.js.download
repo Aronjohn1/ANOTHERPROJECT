@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSThreadMediaGalleryGroup",[],(function(a,b,c,d,e,f){a=Object.freeze({PHOTOS_AND_VIDEOS:0,FILES_ONLY:1,LINKS:2});f["default"]=a}),66);
+__d("MAWMediaGalleryEBTaggingUtils",["LSThreadMediaGalleryGroup","qex"],(function(a,b,c,d,e,f,g){"use strict";function a(a){a===void 0&&(a={isSilent:!1});return a.isSilent===!0?c("qex")._("3655")===!0:c("qex")._("1975")===!0}function b(a){return a===c("LSThreadMediaGalleryGroup").PHOTOS_AND_VIDEOS}g.isMediaGalleryEBTaggingRestoreEnabled=a;g.isMediaGalleryGroupSupportedForTaggedRestore=b}),98);
