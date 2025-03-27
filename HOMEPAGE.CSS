@@ -6,6 +6,8 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
 }
 
 .header {
@@ -295,7 +297,7 @@ h1{
     }
     .header3{
         grid-template-columns: repeat(1, 1fr);
-        
+      
        
     }
     .box2{
@@ -307,7 +309,7 @@ h1{
         height: 100%;
       }
       .header3{
-        height: 140vh;
+        height: 150vh;
       }  
       .one-box{
         width: 100%;
