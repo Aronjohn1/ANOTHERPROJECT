@@ -141,6 +141,71 @@ a{
 font-size: 50px;
 
 }
+@keyframes three-box{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hold-text{
+    animation: three-box 1s ease-out forwards;
+}
+@keyframes -secss{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.yaw{
+    animation: -secss 2s ease-out forwards;
+}
+@keyframes -secss{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hedt{
+    animation: -secss 2s ease-out forwards;
+}
+@keyframes -secss{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.YAWO{
+    animation: -secss 2s ease-out forwards;
+}
+@keyframes adders{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.bros{
+    animation: adders 2s ease-out forwards;
+}
 /* .boxess{
     border: 1px solid white;
     width: 100%;
